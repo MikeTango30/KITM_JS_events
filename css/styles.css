@@ -1,0 +1,8 @@
+.container div {
+    background-color: #af3c15;
+    height: 100px;
+    width: 25%;
+    float:left;
+    text-align: center;
+    color: #fff;
+}
