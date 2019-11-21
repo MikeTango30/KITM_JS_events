@@ -22,10 +22,11 @@
     function getRandomInt(max) {
         return Math.floor(Math.random() * Math.floor(max));
     }
+    console.log(Math.random()*Math.floor(10))
 
     function randomBgColor(r, g, b) {
-        let randomColor = 'rgb('+ r + ', ' + g + ', ' + b + ')';
-        return randomColor;
+        return 'rgb('+ r + ', ' + g + ', ' + b + ')';
+
     }
 
     for(let i = 0; i < divCount; i++) {
